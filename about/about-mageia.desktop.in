@@ -1,0 +1,9 @@
+[Desktop Entry]
+_Name=About Mageia
+_Comment=More about Mageia
+Icon=mageia
+Exec=about-mageia
+Type=Application
+Categories=Documentation;System;
+Terminal=false
+NoDisplay=true

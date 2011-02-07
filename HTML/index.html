@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html lang="#LANG">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta name="product:id" content="#PRODUCT_ID" />
+    <title>Mageia</title>
+    <style>
+    html { background-color: #eee; margin: 0; }
+    body { margin: 0 auto; width:  800px; height: 600px; }
+    body.offline { background: url(images/offline-bg.png) no-repeat; }
+    body.offline h1 span { display: none; }
+    body.offline h1 a { display: block; width: 800px; height: 600px; }
+    h1 { margin: 0; }
+    </style>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="try{new StartPage('http://start.mageia.org/',
+'http://static.mageia.org/g/images/indexhtml_online_pixel.png').run();
+}catch(e){}">
+    <h1><a href="http://www.mageia.org/"><span>Mageia</span></a></h1>
+</body>
+</html>
