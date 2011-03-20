@@ -9,18 +9,40 @@
     <meta name="product:id" content="#PRODUCT_ID" />
     <title>Mageia</title>
     <style>
-    html { background-color: #eee; margin: 0; }
-    body { margin: 0 auto; width:  800px; height: 600px; }
+    html { margin: 0; background-color: #eee; }
+    body {
+        margin: 0 auto;
+        width: 810px;
+        text-align: center;
+        font-family: Helvetica, Verdana, Arial, sans-serif;
+        font-size: 80%;
+    }
     body.offline { background: url(images/offline-bg.png) no-repeat; }
     body.offline h1 span { display: none; }
-    body.offline h1 a { display: block; width: 800px; height: 600px; }
-    h1 { margin: 0; }
+    a { text-decoration: none; }
+    h1 { margin: 0 0 2em 0; }
+    img { border: 0; }
+    .lx { margin: 0 auto 1.5em 0; padding: 0; }
+    .lx li { display: inline; border-right: 3px solid #ddd; padding: 0.3em 0.8em 0.3em 0.6em; }
+    .lx li:last-child { border: 0; }
     </style>
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body onload="try{new StartPage('http://start.mageia.org/',
 'http://static.mageia.org/g/images/indexhtml_online_pixel.png').run();
 }catch(e){}">
-    <h1><a href="http://www.mageia.org/"><span>Mageia</span></a></h1>
+    <h1><a href="http://www.mageia.org/?ssp"><img src="images/logo_mageia.png" alt="Mageia" /></a></h1>
+    <ul class="lx">
+        <li><a href="http://forums.mageia.org/?ssp">Forums</a></li>
+        <li><a href="http://blog.mageia.org/?ssp">Blogs</a> &amp;
+            <a href="http://planet.mageia.org/?ssp">Planets</a></li>
+        <li><a href="http://mageia.org/contribute/?ssp">Contribute</a></li>
+        <li><a href="http://mageia.org/donate/?ssp">Donate</a></li>
+    </ul>
+    <ul class="lx">
+        <li><a href="http://mageia.org/?ssp">Mageia.Org</a></li>
+        <li><a href="http://mageia.org/about/?ssp">About</a></li>
+        <li><a href="http://mageia.org/support/?ssp">Need help?</a></li>
+    </ul>
 </body>
 </html>
