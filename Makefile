@@ -1,5 +1,6 @@
 PACKAGE = indexhtml
-VERSION:= 1
+VERSION = 1
+DATE = `date +%Y%m%d`
 
 SVN_URL  := $(shell svn info | grep ^URL: | cut -f2 -d\ )
 SVN_BASE := $(shell svn info | sed -n '/^URL: \(.*\/$(PACKAGE)\).*/s//\1/p')
@@ -26,8 +27,8 @@ localcopy:
 	svn export -q . $(PACKAGE)-$(VERSION)
 
 tar:
-	tar cvf $(PACKAGE)-$(VERSION).tar $(PACKAGE)-$(VERSION)
-	bzip2 -9vf $(PACKAGE)-$(VERSION).tar
+	tar cvf $(PACKAGE)-$(VERSION).$(DATE).tar $(PACKAGE)-$(VERSION)
+	bzip2 -9vf $(PACKAGE)-$(VERSION).$(DATE).tar
 	rm -rf $(PACKAGE)-$(VERSION)
 
 
