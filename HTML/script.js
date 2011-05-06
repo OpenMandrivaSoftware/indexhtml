@@ -14,9 +14,12 @@ function StartPage(url, image) {
 }
 
 StartPage.prototype.run = function () {
-    if (false && navigator.onLine !== null) {
-        !navigator.onLine ? this.actOnline() : this.actOffline();
-
+    if (navigator.onLine !== null) {
+        if (navigator.onLine) {
+          this.actOnline();
+        } else {
+          this.actOffline();
+        }
     } else { // for khtml-based browsers
         try {
             var sp = this,
@@ -34,12 +37,14 @@ StartPage.prototype.run = function () {
     }
 
     return true;
-}
+};
 
 StartPage.prototype.actOnline = function () {
-    var productId = '',
+    var product_id = '',
         lang = '',
-        args = new Array;
+        args = [];
+
+    document.getElementsByTagName("body").item(0).setAttribute("class", "");
 
     if (null !== (product_id = this.getProductId())) {
         args.push('p=' + product_id);
@@ -55,7 +60,7 @@ StartPage.prototype.actOnline = function () {
     parent.location = this.location;
 
     return true;
-}
+};
 
 StartPage.prototype.actOffline = function () {
     var p = this,
@@ -68,7 +73,7 @@ StartPage.prototype.actOffline = function () {
     document.body.addEventListener("online", function () { p.actOnline(); }, false);
 
     return true;
-}
+};
 
 StartPage.prototype.getLocale = function () {
     var ret = null;
@@ -78,18 +83,18 @@ StartPage.prototype.getLocale = function () {
     } catch (e) {}
 
     return ret;
-}
+};
 
 StartPage.prototype.getProductId = function () {
     var ret = null,
         t = document.getElementsByTagName('meta');
 
     for (var i = 0; i < t.length; i += 1) {
-        if (t.item(i).getAttribute('name') == 'product:id') {
+        if (t.item(i).getAttribute('name') === 'product:id') {
             ret = t.item(i).getAttribute('content').trim();
             break;
         }
     }
 
     return ret;
-}
+};
