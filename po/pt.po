@@ -25,12 +25,12 @@ msgstr "Utilizadores Mageia"
 #. subject
 #: mail/placeholder.h:10
 msgid "Welcome to Mageia"
-msgstr "Bem-vindo ao Mageia"
+msgstr "Bem-vindo à Mageia"
 
 #.
 #: mail/placeholder.h:12
 msgid "Welcome to Mageia!"
-msgstr "Bem-vindo ao Mageia!"
+msgstr "Bem-vindo à Mageia!"
 
 #. mail greeting heading
 #: mail/placeholder.h:14
