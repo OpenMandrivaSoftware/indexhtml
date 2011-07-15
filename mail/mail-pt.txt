@@ -1,0 +1,13 @@
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Bem-vindo à Mageia!
+
+Visite a nossa página http://www.mageia.org/ para obter mais dicas e actualizações
+acerca da Mageia.
+
+Divirta-se!
+
+--
+Mageia
+http://www.mageia.org/
