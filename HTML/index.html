@@ -1,63 +1,23 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html>
 <html lang="#LANG">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
-    <meta http-equiv="Cache-Control" content="no-cache" />
-    <meta name="product:id" content="#PRODUCT_ID" />
+    <meta charset="utf-8">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="product:id" content="#PRODUCT_ID">
     <title>Mageia</title>
     <style>
     html { margin: 0; background-color: #e6e4e0; }
-    body {
-        margin: 0 auto;
-        padding: 0 0 2em 0;
-        width: 810px;
-        text-align: center;
-        font-family: Helvetica, Verdana, Arial, sans-serif;
-        font-size: 80%;
-        -webkit-transition: -webkit-transform 0.5s ease-in-out;
-        -webkit-transform-origin: 100% 0%;
-        -moz-transition: -moz-transform 0.5s ease-in-out;
-        -moz-transform-origin: 100% 0%;
-        transition: transform 0.5s ease-in-out;
-        transform-origin: 100% 0%;
-    }
-    body.offline {
-        -webkit-transform: rotate(-4deg);
-        -moz-transform: rotate(-4deg);
-        transform: rotate(-4deg);
-    }
-    body.offline h1 span { display: none; }
-    #offlinestatus { font-weight: bold; color: transparent; display: none; }
-    body.offline #offlinestatus { color: #444; display: block; }
+    body { margin: 0 auto; padding: 0 0 2em 0; width: 810px; text-align: center; }
     a { text-decoration: none; }
     h1 { margin: 0 0 2em 0; }
     img { border: 0; }
-    .lx { margin: 0 auto 1.5em 0; padding: 0; }
-    .lx li { display: inline; border-right: 3px solid #ddd; padding: 0.3em 0.8em 0.3em 0.6em; }
-    .lx li:last-child { border: 0; }
     </style>
-    <base href="/usr/share/indexhtml/" />
+    <base href="/usr/share/indexhtml/">
     <script type="text/javascript" src="script.js"></script>
 </head>
-<body onload="try{new StartPage('http://start.mageia.org/',
-'http://static.mageia.org/g/images/indexhtml_online_pixel.png').run();
-}catch(e){}">
-    <span id="offlinestatus">Offline</span>
-    <h1><a href="http://www.mageia.org/?ssp"><img src="images/logo_mageia.png" alt="Mageia" /></a></h1>
-    <ul class="lx">
-        <li><a href="http://forums.mageia.org/?ssp">Forums</a></li>
-        <li><a href="http://blog.mageia.org/?ssp">Blogs</a> &amp;
-            <a href="http://planet.mageia.org/?ssp">Planets</a></li>
-        <li><a href="http://mageia.org/contribute/?ssp">Contribute</a></li>
-        <li><a href="http://mageia.org/donate/?ssp">Donate</a></li>
-    </ul>
-    <ul class="lx">
-        <li><a href="http://mageia.org/support/?ssp">Need help?</a></li>
-        <li><a href="http://mageia.org/?ssp">Mageia.Org</a></li>
-        <li><a href="http://mageia.org/about/?ssp">About</a></li>
-    </ul>
+<body onload="try{new StartPage('http://start.mageia.org/').run();}catch(e){}">
+    <h1><a href="http://start.mageia.org/?ssp"><img src="images/logo_mageia.png" alt="Mageia"></a></h1>
 </body>
 </html>
