@@ -2,7 +2,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Filip Komar <filip.komar@gmail.com>, 2012.
-
 #
 msgid ""
 msgstr ""
