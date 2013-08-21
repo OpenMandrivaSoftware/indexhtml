@@ -1,8 +1,8 @@
 [Desktop Entry]
-_Name=About Mageia
-_Comment=More about Mageia
+_Name=About OpenMandriva LX
+_Comment=More about OpenMandriva LX
 Icon=mageia
-Exec=about-mageia
+Exec=about-openmandriva-lx
 Type=Application
 Categories=Documentation;System;
 Terminal=false
