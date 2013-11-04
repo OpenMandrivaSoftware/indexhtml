@@ -10,7 +10,7 @@ clean:
 
 install:
 	mkdir -p $(RPM_BUILD_ROOT)/usr/share/doc/HTML
-	cp -p HTML/* $(RPM_BUILD_ROOT)/usr/share/doc/HTML/
+	cp -rp HTML/* $(RPM_BUILD_ROOT)/usr/share/doc/HTML/
 
 version:
 	@echo $(VERSION)
