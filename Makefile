@@ -2,9 +2,6 @@ PACKAGE = indexhtml
 VERSION = 2013.0
 DATE = `date +%Y%m%d`
 
-SVN_URL  := $(shell svn info | grep ^URL: | cut -f2 -d\ )
-SVN_BASE := $(shell svn info | sed -n '/^URL: \(.*\/$(PACKAGE)\).*/s//\1/p')
-
 all:
 
 clean:
@@ -21,20 +18,14 @@ version:
 # rules to build a test rpm
 
 cleandist:
-	rm -rf $(PACKAGE)-$(VERSION) $(PACKAGE)-$(VERSION).tar.bz2
+	rm -rf $(PACKAGE)-$(VERSION) $(PACKAGE)-$(VERSION).tar.xz
 
 localcopy:
-	git export -q . $(PACKAGE)-$(VERSION)
-
-tar:
-	tar cvf $(PACKAGE)-$(VERSION).$(DATE).tar $(PACKAGE)-$(VERSION)
-	bzip2 -9vf $(PACKAGE)-$(VERSION).$(DATE).tar
-	rm -rf $(PACKAGE)-$(VERSION)
-
+	git archive --prefix=$(PACKAGE)-$(VERSION)/ HEAD | xz -c > $(PACKAGE)-$(VERSION).tar.xz
 
 # rules to build a distributable rpm
 
-dist: cleandist localcopy tar
+dist: cleandist localcopy
 
 log: changelog
 
