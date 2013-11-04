@@ -1,5 +1,5 @@
 PACKAGE = indexhtml
-VERSION = 1
+VERSION = 2013.0
 DATE = `date +%Y%m%d`
 
 SVN_URL  := $(shell svn info | grep ^URL: | cut -f2 -d\ )
@@ -24,7 +24,7 @@ cleandist:
 	rm -rf $(PACKAGE)-$(VERSION) $(PACKAGE)-$(VERSION).tar.bz2
 
 localcopy:
-	svn export -q . $(PACKAGE)-$(VERSION)
+	git export -q . $(PACKAGE)-$(VERSION)
 
 tar:
 	tar cvf $(PACKAGE)-$(VERSION).$(DATE).tar $(PACKAGE)-$(VERSION)
