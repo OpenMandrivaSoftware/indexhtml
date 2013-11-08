@@ -18,8 +18,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: index.html.in.h:1
-msgid "About Mageia"
-msgstr "Acerca da Mageia"
+msgid "About OpenMandriva"
+msgstr "Acerca da OpenMandriva"
 
 #: index.html.in.h:2
 msgid "Browse resources"
@@ -34,8 +34,8 @@ msgid "Coming soon..."
 msgstr "Em breve..."
 
 #: index.html.in.h:5
-msgid "What is Mageia?"
-msgstr "O que é a Mageia?"
+msgid "What is OpenMandriva Lx?"
+msgstr "O que é a OpenMandriva Lx?"
 
 #: index.html.in.h:6
 msgid "top of this page"

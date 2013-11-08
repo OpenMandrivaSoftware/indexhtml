@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.html.in.h:1
-msgid "About Mageia"
+msgid "About OpenMandriva"
 msgstr ""
 
 #: index.html.in.h:2
@@ -33,7 +33,7 @@ msgid "Coming soon..."
 msgstr ""
 
 #: index.html.in.h:5
-msgid "What is Mageia?"
+msgid "What is OpenMandriva Lx?"
 msgstr ""
 
 #: index.html.in.h:6
