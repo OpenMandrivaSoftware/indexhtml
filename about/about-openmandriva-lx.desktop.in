@@ -1,7 +1,7 @@
 [Desktop Entry]
 _Name=About OpenMandriva LX
 _Comment=More about OpenMandriva LX
-Icon=mageia
+Icon=openmandriva
 Exec=about-openmandriva-lx
 Type=Application
 Categories=Documentation;System;

@@ -1,5 +1,5 @@
 PACKAGE = indexhtml
-VERSION = 2013.0
+VERSION = 2014.0
 DATE = `date +%Y%m%d`
 
 all:
@@ -21,7 +21,7 @@ cleandist:
 	rm -rf $(PACKAGE)-$(VERSION) $(PACKAGE)-$(VERSION).tar.xz
 
 localcopy:
-	git archive --prefix=$(PACKAGE)-$(VERSION)/ HEAD | xz -c > $(PACKAGE)-$(VERSION).tar.xz
+	git archive --prefix=$(PACKAGE)-$(VERSION)/ HEAD | xz -c -T0 > $(PACKAGE)-$(VERSION).tar.xz
 
 # rules to build a distributable rpm
 

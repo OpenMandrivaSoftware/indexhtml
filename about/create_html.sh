@@ -23,4 +23,4 @@ if [ -e "index-C.html" ]; then
 fi
 
 cd ..
-intltool-merge --desktop-style -m po about-openmandriva-lx.desktop.in about-openmandriva-lx.desktop 
+intltool-merge --desktop-style -m po about-openmandriva-lx.desktop.in about-openmandriva-lx.desktop
