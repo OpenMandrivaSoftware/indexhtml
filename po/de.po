@@ -2,13 +2,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Oliver Burger <oliver.bgr@googlemail.com>, 2011.
+# Maik Wagner <maiktapwagner@aol.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: indexhtml\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-08-30 17:45+0200\n"
 "PO-Revision-Date: 2011-05-09 17:07+0200\n"
-"Last-Translator: Oliver Burger <oliver.bgr@googlemail.com>\n"
+"Last-Translator: Maik Wagner <maiktapwagner@aol.com>\n"
 "Language-Team: German <mageia-i18n@mageia.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
