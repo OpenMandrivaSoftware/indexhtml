@@ -18,17 +18,17 @@ msgstr ""
 
 #. name appearing in To:
 #: mail/placeholder.h:8
-msgid "Mageia Users"
+msgid "OpenMandriva Users"
 msgstr ""
 
 #. subject
 #: mail/placeholder.h:10
-msgid "Welcome to Mageia"
+msgid "Welcome to OpenMandriva"
 msgstr ""
 
 #.
 #: mail/placeholder.h:12
-msgid "Welcome to Mageia!"
+msgid "Welcome to OpenMandriva!"
 msgstr ""
 
 #. mail greeting heading
@@ -38,5 +38,5 @@ msgstr ""
 
 #. goodbye signature (2nd line)
 #: mail/placeholder.h:41
-msgid "The Mageia team"
+msgid "The OpenMandriva team"
 msgstr ""
