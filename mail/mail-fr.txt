@@ -1,10 +1,9 @@
 Content-Type: text/plain; charset=utf-8
 Content-Transfer-Encoding: 8bit
 
-Bienvenue sur OpenMandriva LX !
+Bienvenue sur OpenMandriva Lx !
 
 
 --
-L'équipe OpenMandriva LX
+L'équipe OpenMandriva Lx
 http://www.openmandriva.org/
-

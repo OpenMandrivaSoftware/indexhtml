@@ -1,12 +1,4 @@
-/**
- * @copyright Copyright (c) 2011-2012 Romain d'Alverny
- * @license http://www.gnu.org/licenses/gpl-3.0.html GNU GPL v3 and later
- *
- * Redirect browser to URL with GET parameters:
- * - l = html[lang]
- * - p = meta[product:id]
- *
-*/
+
 
 function StartPage(url) {
     this.location = url;

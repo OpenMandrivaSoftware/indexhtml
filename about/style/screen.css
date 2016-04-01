@@ -64,7 +64,7 @@ ul {
 			margin-top: 0px;
 			text-align: justify;
 		}
-	
+
 	ul.focus {}
 		ul.focus li {
 			text-align: center;
@@ -86,7 +86,7 @@ ul {
 	ul.list li p.more {
 		text-align: right;
 	}
-			
+
 div.clear { clear: both; }
 
 div.bottom {

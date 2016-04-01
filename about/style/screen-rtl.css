@@ -36,7 +36,7 @@ div#title {
 		div#title ul li { top: 20px; position: absolute; }
 		div#title ul li#dis { left: 300px; }
 			div#title ul li#dis a { width: 119px; }
-			
+
 		div#title ul li#pp { left: 420px; }
 			div#title ul li#pp a { width: 116px; }
 
@@ -74,7 +74,7 @@ ul {
 			margin-top: 0px;
 			text-align: justify;
 		}
-	
+
 	ul.focus {}
 		ul.focus li {
 			text-align: center;
@@ -96,6 +96,6 @@ ul {
 	ul.list li p.more {
 		text-align: left;
 	}
-			
+
 div.clear { clear: both; }
 

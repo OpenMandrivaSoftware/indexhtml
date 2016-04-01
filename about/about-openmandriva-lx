@@ -18,5 +18,5 @@ if [ -f /usr/share/mdk/about/index.html ]; then
  exit 0
 fi
 
-echo "file not found for about OpenMandriva LX"
+echo "file not found for about OpenMandriva Lx"
 exit 1
